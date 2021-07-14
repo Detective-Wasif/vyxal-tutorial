@@ -62,3 +62,8 @@ But you may also wondering, how to conveniently access a value located in bad po
 
 To get a variable `←` is used. It gets the value of variable (without emptying it) and pushes the value of the variable to stack.
 
+**1.2 Register**
+
+Variables are often expensive, they cost a lot of bytes. You may need to store only one value, so to solve even that problem we have register.
+
+Register is just like variable, it can hold any value of any data type. To pop and store a value in register, just use `£` command. To push the value of register to stack without emptying use `¥`.
