@@ -52,3 +52,13 @@ Now lets quickly get used to few important commands which modify stack:
 | `/` | Divide top two values on stack | `1 2 3` | `1 0.6666666666666666` |
 | `%` | Modulo top two values on stack | `1 2 3` | `1 2` |
 
+Don't forget these commands!
+
+But you may also wondering, how to conveniently access a value located in bad position on stack. You might want some alternative storage system. To solve that problem we present you: variables and registers
+
+**1.1 Variables**
+
+`→` command is used to set a variable. It is followed by alphabetic character(s), which is set to a variable having value of the top of stack (top of stack is popped then set). Assuming stack is `1 2 3`, `→a` will pop `3` and set the value of varaible `a` to 3.
+
+To get a variable `←` is used. It gets the value of variable (without emptying it) and pushes the value of the variable to stack.
+
