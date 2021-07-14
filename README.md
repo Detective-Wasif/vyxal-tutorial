@@ -52,7 +52,7 @@ Now lets quickly get used to few important commands which modify stack:
 | `/` | Divide top two values on stack | `1 2 3` | `1 0.6666666666666666` |
 | `%` | Modulo top two values on stack | `1 2 3` | `1 2` |
 
-Don't forget these commands!
+Don't forget these commands! But you may wonder how to remember those fancy unicode chars. Don't worry, you aren't alone. The official [online Vyxal interpreter](https://lyxal.pythonanywhere.com/) will fix your problem. Open it, you'll see a Keyboard section. Expand it, a long list of commands will appear. In search box, just enter few words from the description of the command, it will return matches. And you just hover on the matches to get extended info. So simple, right!
 
 But you may also wondering, how to conveniently access a value located in bad position on stack. You might want some alternative storage system. To solve that problem we present you: variables and registers
 
