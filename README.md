@@ -95,3 +95,7 @@ So by using `N` we have pushed a negative number.
 To push a floating point number, use `.` as a decimal seperator. Writing `1.56` will push what are you expecting.
 
 Vyxal partially supports complex numbers. We know imaginary unit is equal to √-1. There is a builtin `u` which pushes `-1` to the stack. And `√` builtin pops a value from top of stack and pushes its square root. So `u√` should push the `1j`. Remember operations on complex numbers don't work as expected now but it is coming soon.
+
+**2.2 String**
+
+Instead of using `"` or `'`, ```
