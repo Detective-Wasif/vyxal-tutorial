@@ -66,4 +66,31 @@ To get a variable `←` is used. It gets the value of variable (without emptying
 
 Variables are often expensive, they cost a lot of bytes. You may need to store only one value, so to solve even that problem we have register.
 
-Register is just like variable, it can hold any value of any data type. To pop and store a value in register, just use `£` command. To push the value of register to stack without emptying use `¥`.
+Register is just like variable, it can hold any value of any data type. To pop and store a value in register, just use `£` command. To push the value of register to stack without emptying the register use `¥`.
+
+**2. Data types**
+
+Vyxal aims simplicity, so we have as less as data types as possible. 
+
+- Number
+- String
+- List
+- Generator
+- Function
+
+**2.1 Number**
+
+Numbers can be any integer, negative or floating point number.
+
+We have already seen how to push and operate a postive integer. Now lets see how to push a negative integer. Suppose we want to push -12.
+
+If you write `-12` then Vyxal will try to `-` as a builtin and subtract top two items on stack and then push 12. But that's not what we want. We want to push -12 exactly. So we have to push 12 first then write `N`. `N` is actually a builtin which inverts the sign of a number. I mean:
+
+- If gets a positive number, changes its sign to negative.
+- If gets a negative number, changes its sign to positive.
+- If got 0 then return 0.
+
+So by using `N` we have pushed a negative number.
+
+To push a floating point number, use `.` as a decimal seperator. Writing `1.56` will push what are you expecting.
+
