@@ -98,4 +98,4 @@ Vyxal partially supports complex numbers. We know imaginary unit is equal to √
 
 **2.2 String**
 
-Instead of using `"` or `'`, ```
+Instead of using `"` or `'`, `\`` is used instead for string.
